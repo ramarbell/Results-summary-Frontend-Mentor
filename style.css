@@ -1,0 +1,195 @@
+html {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  padding: 100px;
+}
+
+#result-card {
+  height: 310px;
+  width: 240px;
+  border: solid;
+  border-color: hsl(252, 100%, 60%);
+  border-radius: 10px;
+  background-color: hsl(252, 100%, 60%);
+}
+
+#first-heading,
+#second-heading {
+  margin: 0;
+  margin-top: 15px;
+}
+
+#first-heading {
+  margin-left: 70px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 1rem;
+}
+
+#score {
+  height: 110px;
+  width: 110px;
+  border: solid;
+  border-color: hsla(256, 72%, 46%, 1);
+  margin: 15px 0 0 60px;
+  border-radius: 60px;
+  background-color: hsla(256, 72%, 46%, 1);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 20px 0 0 35px;
+  color: hsl(0, 0%, 100%);
+}
+
+#max {
+  margin: 5px 0 0 40px;
+  font-size: 0.6rem;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+h3 {
+  margin: 50px 0 3px 23%;
+  color: hsl(0, 0%, 100%);
+}
+
+#praise {
+  margin: 15px 0 0 -10px;
+  width: 150%;
+  font-size: 0.8rem;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+#summary-card {
+  height: 315px;
+  width: 240px;
+  border: solid hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px hsl(252, 40%, 86%);
+}
+
+#second-heading {
+  margin-left: 30px;
+}
+
+#reaction,
+#memory,
+#verbal,
+#visual {
+  display: flex;
+  margin: 10px 0 0 15px;
+  width: 80%;
+  height: 20px;
+  border: solid;
+  border-radius: 5px;
+  padding: 8px;
+  position: relative;
+}
+
+#reaction {
+  background-color: hsla(0, 100%, 67%, 0.2);
+  border-color: hsla(0, 100%, 67%, 0);
+}
+
+#memory {
+  background-color: hsla(39, 100%, 56%, 0.2);
+  border-color: hsla(39, 100%, 56%, 0);
+}
+
+#verbal {
+  background-color: hsla(166, 100%, 37%, 0.2);
+  border-color: hsla(166, 100%, 37%, 0);
+}
+
+#visual {
+  background-color: hsla(234, 85%, 45%, 0.2);
+  border-color: hsla(234, 85%, 45%, 0);
+}
+
+#first,
+#second,
+#third,
+#fourth {
+  display: flex;
+  margin: 3px 0 0 7px;
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+#first {
+  color: hsl(0, 100%, 67%);
+}
+
+#second {
+  color: hsl(39, 100%, 56%);
+}
+
+#third {
+  color: hsl(166, 100%, 37%);
+}
+
+#fourth {
+  color: hsl(234, 85%, 45%);
+}
+
+.rating-1,
+.rating-2,
+.rating-3,
+.rating-4 {
+  margin-top: 1px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.rating-1,
+.rating-2 {
+  margin-left: 70px;
+  margin-right: 5px;
+}
+
+.rating-3,
+.rating-4 {
+  margin-left: 80px;
+  margin-right: 5px;
+}
+
+#total-1,
+#total-2,
+#total-3,
+#total-4 {
+  margin: 1px 0 0 5px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+button {
+  width: 190px;
+  padding: 10px;
+  margin: 18px 0 0 25px;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+}
+
+button:hover {
+  background-color: hsl(252, 100%, 64%);
+}
+
+@media (min-width: 650px) {
+  #summary-card {
+    height: 315px;
+    position: absolute;
+    left: 355px;
+    top: 105px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 0px;
+    border: 0;
+  }
+}
